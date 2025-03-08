@@ -3,20 +3,20 @@ import java.util.Scanner;
 public class ExercicioDadosUsuario {
     public static void main(String[] args) {
 
-            Scanner slk = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
 
             String nome;
             int idade, tempoIdade;
             Double altura, alturaCalc;
 
             System.out.println("Qual o seu nome? ");
-            nome = slk.nextLine();
+            nome = scanner.nextLine();
 
             System.out.println("Qual sua idade? ");
-            idade = slk.nextInt();
+            idade = scanner.nextInt();
 
             System.out.println("Qual sua altura? ");
-            altura = slk.nextDouble();
+            altura = scanner.nextDouble();
 
             System.out.println("Olá " + nome + "!");
 
@@ -26,7 +26,7 @@ public class ExercicioDadosUsuario {
             alturaCalc = altura * 100;
             System.out.println("Seu tamanho é de " + alturaCalc + ".");
 
-            slk.close();
+            scanner.close();
 
         }
     }
