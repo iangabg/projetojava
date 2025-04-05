@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class CadastroAtleta {
     public static void main(String[] args) {
         Scanner cadastro = new Scanner(System.in);
-        String resposta;
 
         int limiteAtletas = 10;
         int contadorAtletas = 0;
